@@ -18,6 +18,8 @@ export default defineConfig({
     }),
   ],
   esbuild: {
-    logOverride: { 'this-is-undefined-in-esm': 'silent' }
-  }
+    logOverride: { 'this-is-undefined-in-esm': 'silent' },
+    
+  },
+  base: 'rpg-term/dist'
 });
