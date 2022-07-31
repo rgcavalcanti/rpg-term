@@ -1,0 +1,16 @@
+{
+  "name": "rpg-term",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "clean": "tsc --build --clean",
+    "build": "yarn clean && tsc",
+    "start": "yarn build && node dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
