@@ -6,7 +6,7 @@ const globalStyle = (theme: Theme) => css`
   }
 
   body {
-    background-color: ${theme.color.background};
+    background-color: ${theme.color.nord10};
   }
 `;
 

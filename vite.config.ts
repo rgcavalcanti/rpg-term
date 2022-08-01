@@ -21,5 +21,5 @@ export default defineConfig({
     logOverride: { 'this-is-undefined-in-esm': 'silent' },
     
   },
-  base: 'rpg-term/dist'
+  base: '/rpg-term/dist/'
 });

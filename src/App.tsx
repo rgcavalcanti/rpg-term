@@ -13,5 +13,5 @@ export const App = () => {
 
 const title = (theme: Theme) => css`
   text-align: center;
-  color: ${theme.color.shadow};
+  color: ${theme.color.nord4};
 `;
